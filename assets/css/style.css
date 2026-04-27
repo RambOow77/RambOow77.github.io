@@ -1,0 +1,52 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+    padding-top: 80px;
+}
+
+/* Espacio para navbar fija */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Portfolio hover */
+.portfolio-item {
+    transition: 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    background: #0ea5e9;
+    color: white;
+}
+
+/* Quitar estilo de enlace */
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Efecto hover más pro */
+.portfolio-item {
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.portfolio-item img {
+    transition: 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero */
+
+.hero{
+    background-image: url("http://picsum.photos/800/300");
+    background-size: cover;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#productos{
+    padding-top: 5px;
+    padding-left: 25%;
+}
+
+.producto{
+    margin-bottom: 5px;
+}
+
+td{
+    padding: 20px;
+}
+
+footer{
+    background-color: beige;
+    padding: 10px;
+    border: 2px solid grey;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
